@@ -17,6 +17,6 @@ This is another exciting game made by the coding game community. As on this date
 It is like an online escape room where you along with your friends solve riddles and puzzles to win . The best part of this is the game can also be played with non-coders (most of my friends 😑)
 
 A trailer sort of video on coding escape
-[![Coding game intro video](http://img.youtube.com/vi/7ixtzp5aVOI/0.jpg)](https://www.youtube.com/watch?v=7ixtzp5aVOI)
+[![Coding game intro video](https://img.youtube.com/vi/7ixtzp5aVOI/0.jpg)](https://www.youtube.com/watch?v=7ixtzp5aVOI)
 
 Register for the event and get an early access access
