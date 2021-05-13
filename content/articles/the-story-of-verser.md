@@ -1,5 +1,5 @@
 ---
-title: Story of verser
+title: Story of verser ⏳
 description: Details of the prootype payment app - Verser
 img: Verser.img
 alt: verser logo

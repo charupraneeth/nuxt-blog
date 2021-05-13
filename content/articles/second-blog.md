@@ -1,8 +1,6 @@
 ---
-title: Second Blog Post
+title: 🥈 Second Blog Post
 description: Re-Learning how to use @nuxt/content to create a blog
-img: second-blog-post.jpg
-alt: no thing
 ---
 
 # Augent aquarum

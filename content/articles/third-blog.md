@@ -1,8 +1,6 @@
 ---
-title: Third Blog Post
+title: Third Blog Post 🥉
 description: Some random thing
-img: Third-blog-post.jpg
-alt: no thing
 ---
 
 # Adiacet mediis et ipsa nec cortice humum

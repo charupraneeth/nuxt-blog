@@ -1,8 +1,6 @@
 ---
-title: Fourth Blog Post
+title: Fourth Blog Post 🍀
 description: Fourth random thing
-img: Fourth-blog-post.jpg
-alt: no thing
 ---
 
 ## Exitio iratus dentemque in simus tamen patiar

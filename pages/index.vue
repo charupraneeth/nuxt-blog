@@ -9,9 +9,9 @@
             </nuxt-link>
           </h4>
           <!-- <date>{{ readableDate(article.createdAt) }}</date> -->
-          <date v-if="article.createdAt != article.updatedAt">
+          <p class="date">
             {{ readableDate(article.updatedAt) }}
-          </date>
+          </p>
         </header>
         <p>{{ article.description }}</p>
       </article>
@@ -30,6 +30,7 @@ export default {
   async fetch() {
     this.articles = await this.$content('articles')
       .only(['title', 'description', 'createdAt', 'updatedAt', 'slug'])
+      .sortBy('createdAt', 'desc')
       .fetch()
   },
   methods: {
@@ -45,20 +46,11 @@ export default {
   margin: 2.6rem 0;
 }
 .article header h4 {
+  margin-bottom: 0.5rem;
   font-size: 1.5rem;
   color: rgb(69, 143, 240);
 }
 .article > * {
   margin: 0.7rem 0;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  color: rgb(37, 93, 167);
 }
 </style>
