@@ -10,7 +10,7 @@
           </h4>
           <!-- <date>{{ readableDate(article.createdAt) }}</date> -->
           <p class="date">
-            {{ readableDate(article.updatedAt) }}
+            {{ readableDate(article.createdAt) }}
           </p>
         </header>
         <p>{{ article.description }}</p>
@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     readableDate(date) {
-      return new Date(date).toDateString()
+      return new Date(date).toLocaleString()
     },
   },
 }
