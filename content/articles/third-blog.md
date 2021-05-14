@@ -1,6 +1,7 @@
 ---
 title: Third Blog Post 🥉
 description: Some random thing
+date: 2021-05-11
 ---
 
 # Adiacet mediis et ipsa nec cortice humum

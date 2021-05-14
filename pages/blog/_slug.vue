@@ -1,11 +1,11 @@
 <template>
   <article>
     <nav>
-      <nuxt-link to="/">🏠back to home 🚶‍♂️</nuxt-link>
+      <nuxt-link to="/">🏠back to home </nuxt-link>
     </nav>
     <header class="header">
       <h1 class="title">{{ article.title }}</h1>
-      <p>{{ formatDate(article.updatedAt) }}</p>
+      <p>{{ formatDate(article.date) }}</p>
     </header>
 
     <nuxt-content :document="article" />

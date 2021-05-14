@@ -10,7 +10,7 @@
           </h4>
           <!-- <date>{{ readableDate(article.createdAt) }}</date> -->
           <p class="date">
-            {{ readableDate(article.createdAt) }}
+            {{ readableDate(article.date) }}
           </p>
         </header>
         <p>{{ article.description }}</p>
@@ -29,13 +29,13 @@ export default {
 
   async fetch() {
     this.articles = await this.$content('articles')
-      .only(['title', 'description', 'createdAt', 'updatedAt', 'slug'])
-      .sortBy('createdAt', 'desc')
+      .only(['title', 'description', 'slug', 'date'])
+      .sortBy('date', 'desc')
       .fetch()
   },
   methods: {
     readableDate(date) {
-      return new Date(date).toLocaleString()
+      return new Date(date).toDateString()
     },
   },
 }

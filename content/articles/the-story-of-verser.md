@@ -1,8 +1,7 @@
 ---
 title: Story of verser ⏳
 description: Details of the prootype payment app - Verser
-img: Verser.img
-alt: verser logo
+date: 2021-05-13
 ---
 
 ## What is Verser?

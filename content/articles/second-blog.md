@@ -1,6 +1,7 @@
 ---
 title: 🥈 Second Blog Post
 description: Re-Learning how to use @nuxt/content to create a blog
+date: 2021-05-11
 ---
 
 # Augent aquarum

@@ -1,6 +1,7 @@
 ---
 title: Really long blog Post
 description: 🍞 🎇 🧨 ✨ 🎎  making this blog longer
+date: 2021-05-13
 ---
 
 ## This is going to be a really long blog post

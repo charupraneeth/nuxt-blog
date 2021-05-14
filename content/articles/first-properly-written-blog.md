@@ -1,6 +1,7 @@
 ---
 title: My first proper blog
 description: About a game I dicovered
+date: 2021-05-14
 ---
 
 ## Coding game 🎮
@@ -17,6 +18,13 @@ This is another exciting game made by the coding game community. As on this date
 It is like an online escape room where you along with your friends solve riddles and puzzles to win . The best part of this is the game can also be played with non-coders (most of my friends 😑)
 
 A trailer sort of video on coding escape
-[![Coding game intro video](https://img.youtube.com/vi/7ixtzp5aVOI/0.jpg)](https://www.youtube.com/watch?v=7ixtzp5aVOI)
+
+<!-- [![Coding game intro video](https://img.youtube.com/vi/7ixtzp5aVOI/0.jpg)](https://www.youtube.com/watch?v=7ixtzp5aVOI) -->
+
+<iframe width="560" height="315" style="max-width:100%"
+src="https://www.youtube.com/embed/7ixtzp5aVOI"
+frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
 
 Register for the event and get an early access access
