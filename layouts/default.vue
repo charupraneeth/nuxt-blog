@@ -33,6 +33,9 @@ a:visited {
 a:hover {
   color: rgb(37, 93, 167);
 }
+p {
+  font-size: 1.125rem;
+}
 @media only screen and (max-width: 600px) {
   main {
     margin: 1.5rem;
