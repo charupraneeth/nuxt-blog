@@ -33,3 +33,5 @@ fields:
       format: markdown
   label: content
   description: content of the blog
+pages:
+- content/articles/random-title.md
