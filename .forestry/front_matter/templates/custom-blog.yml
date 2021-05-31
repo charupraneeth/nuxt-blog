@@ -1,4 +1,35 @@
 ---
 label: custom-blog
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+  description: title of the blog
+- name: date
+  type: datetime
+  label: date
+  description: date of the blog
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+  description: description of the blog
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
+  description: content of the blog
